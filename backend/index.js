@@ -4,7 +4,6 @@ const cors = require("cors");
 require("./db/config")
 const User = require("./db/User");
 const Product = require("./db/Product")
-
 const Jwt = require("jsonwebtoken")
 const jwtKey = "e-comm"
 
